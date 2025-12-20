@@ -4,4 +4,4 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"message": "Hello from Docker Hub! This image was built automatically."}
+    return {"message": "Hello from Version 2"}
